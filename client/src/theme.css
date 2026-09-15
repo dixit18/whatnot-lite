@@ -1,0 +1,11 @@
+/* tweakcn theme — whatnot-lite: hype yellow + black */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap');
+:root {
+  --background: 0 0% 100%; --foreground: 0 0% 8%;
+  --primary: 55 100% 50%; --primary-foreground: 0 0% 8%;
+  --accent: 0 0% 8%; --accent-foreground: 55 100% 55%;
+  --card: 55 100% 97%; --muted: 0 0% 94%;
+  --border: 0 0% 86%; --radius: 0.9rem;
+  --font-sans: 'Inter', 'Noto Sans Devanagari', system-ui, sans-serif;
+}
+.dark { --background: 0 0% 7%; --foreground: 55 100% 92%; --card: 0 0% 11%; --muted: 0 0% 15%; --border: 0 0% 22%; }
